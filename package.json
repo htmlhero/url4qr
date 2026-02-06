@@ -1,0 +1,38 @@
+{
+  "name": "url4qr",
+  "version": "1.0.0",
+  "description": "Shareable QR-code generator",
+  "author": "Andrew Motoshin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:htmlhero/url4qr.git"
+  },
+  "keywords": [
+    "URL",
+    "QR-code"
+  ],
+  "type": "module",
+  "engines": {
+    "node": "v24.12.0",
+    "npm": "11.6.2"
+  },
+  "scripts": {
+    "start": "npm run watch & npm run sync",
+    "sync": "browser-sync start --server './dist' --files './dist'",
+    "watch": "rimraf dist/* && nodemon --watch './src' --ext 'html,css,js' ./build.js",
+    "build": "rimraf dist/* && node ./build.js"
+  },
+  "dependencies": {
+    "qrcode": "1.5.4"
+  },
+  "devDependencies": {
+    "browser-sync": "3.0.4",
+    "cssnano": "7.1.2",
+    "esbuild": "0.27.2",
+    "nodemon": "3.1.11",
+    "postcss": "8.5.6",
+    "postcss-import": "16.1.1",
+    "rimraf": "6.1.2"
+  }
+}
