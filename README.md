@@ -1,5 +1,7 @@
 # URL 4 QR
 
+Website: [htmlhero.github.io/url4qr](https://htmlhero.github.io/url4qr)
+
 A small web application that allows you to share and save QR-codes via URL.
 
 ## Advantages
@@ -8,7 +10,7 @@ The main advantage of this app is that it doesn't store any personal data. There
 
 ## Usage
 
-Enter the data you want to encode in the text field. The URL in the address bar will change as you type. You can then copy the URL and send it to a friend, or bookmark it for future use.
+Open [htmlhero.github.io/url4qr](https://htmlhero.github.io/url4qr). Enter the data you want to encode in the text field. The URL in the address bar will change as you type. You can then copy the URL and send it to a friend, or bookmark it for future use.
 
 You can read more about the capabilities of encoding data in QR-codes in [this article](https://github.com/zxing/zxing/wiki/Barcode-Contents).
 
